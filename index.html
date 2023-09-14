@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table, th, td { 
+  border: 1.5px solid black; 
+  border-collapse: collapse;
+  color: black;
+  width:400px;
+  height:45px;
+}
+    .a{
+      background-color: cyan;  
+    }
+    .a1{
+      background-color: lightgoldenrodyellow;  
+    }
+    .a2{
+      background-color: red;  
+    }
+    .a3{
+      background-color: blue;  
+    }
+    .a4{
+      background-color: greenyellow;  
+    }
+    .a5{
+      background-color: yellow;  
+    }
+
+    </style>
+    
+</head>
+<body>
+    <table>
+        <tr>
+        <td colspan="8"></td>
+        </tr>
+        <tr>
+            <td rowspan="6"></td>
+            <td colspan="6"></td>
+            <td rowspan="7"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td colspan="4"></td>
+            <td rowspan="5"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td colspan="7"></td>
+        </tr>
+    </table>
+    <br>
+        <table>
+            <tr>
+            <td colspan="9" class="a"></td>
+            </tr>
+            <tr>
+                <td rowspan="6" class="a1"></td>
+                <td colspan="6" class="a"></td>
+                <td rowspan="6" class="a1"></td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="a1"></td>
+                <td colspan="4" class="a"></td>
+                <td rowspan="4" class="a1"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="a1"></td>
+                <td class="a2"> </td>
+                <td class="a3"></td>
+                <td rowspan="2" class="a1"></td>
+            </tr>
+            <tr>
+                <td class="a4"></td>
+                <td class="a5"></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="a"></td>
+            </tr>
+            <tr>
+                <td colspan="6" class="a"></td>
+            </tr>
+            <tr>
+                <td colspan="8" class="a"></td>
+            </tr>
+    
+        </table>
+        <br>
+        <ol> 
+            <li>List Item 1</li> 
+            <ol type="A"> 
+                <li>Nested item 1.1</li> 
+                <li>Nested item 1.2</li> 
+            </ol> 
+            <li>List Item 2</li> 
+            <ol type="i"> 
+                <li>Nestef item 2.1</li> 
+                <li>Nestef item 2.2</li> 
+                <ul> 
+                    <li style="list-style-type: square;">Nested item 2.2.1</li> 
+                    <li style="list-style-type: square;">Nested item 2.2.2</li> 
+                    <ul> 
+                        <li style="list-style-type: circle;">Nested item 2.2.2.1</li> 
+                        <li style="list-style-type: circle;">Nested item 2.2.2.2</li> 
+                    </ul> 
+                    <li>Nested item 2.2.3</li> 
+                </ul> 
+                <li>Nested item 2.3</li> 
+            </ol> 
+            <li>List item 3</li> 
+            <ul> 
+                <li style="list-style-type: disc">Item 1</li> 
+                <li style="list-style-type: disc">Item 2</li> 
+                <li style="list-style-type: disc">Item 3</li> 
+            </ul> 
+        </ol> 
+        <dl> 
+            <dt>COMP 376</dt> 
+              <dd>Introduction to Game Programming</dd> 
+            <dt>Soen287</dt> 
+              <dd>Web programming</dd> 
+              <dd></dd> 
+            <dt>This is a test for Assignment 1.</dt> 
+          </dl>
+
+    
+</body>
+</html>
